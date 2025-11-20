@@ -1,8 +1,10 @@
 # TaskTrack-8A
 ## TaskTrack: Program Pencatatan dan Pengelolaan Tugas Harian
-Program ini adalah aplikasi sederhana untuk mengelola daftar tugas menggunakan bahasa C++ dengan konsep modular programming dan file handling. Semua data disimpan dalam file teks tugas.txt.
+Program ini adalah aplikasi sederhana untuk mengelola daftar tugas menggunakan bahasa C++ dengan konsep modular programming dan file handling. Semua data disimpan dalam file teks `tugas.txt`.
+
 
 ## ✨ Fitur Utama
+
 
 ### Tambah Tugas
 Menyimpan nama tugas, deadline, dan prioritas (Tinggi/Sedang/Rendah).
@@ -19,6 +21,7 @@ Menemukan tugas berdasarkan kata kunci.
 ### Hitung Total Tugas
 Menghitung jumlah baris/tugas di file.
 
+
 ## 📁 Struktur Project
 `main.cpp`
 `tambah.cpp`
@@ -27,6 +30,7 @@ Menghitung jumlah baris/tugas di file.
 `cari.cpp`
 `hitung.cpp`
 `tugas.txt`
+
 
 ## 🚀 Cara Menjalankan
 
@@ -41,6 +45,7 @@ Jalankan:
 ```
 ./tugas
 ```
+
 ## 🧩 Menu Program
 1. Tambah Tugas
 2. Lihat Semua Tugas
@@ -48,6 +53,7 @@ Jalankan:
 4. Cari Tugas
 5. Hitung Total Tugas
 6. Keluar
+
 
 ## 📌 Catatan
 ```
