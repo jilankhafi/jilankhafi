@@ -24,13 +24,13 @@ Menghitung jumlah baris/tugas di file.
 
 ## 📁 Struktur Project
 ```
-├── `main.cpp`
-├── `tambah.cpp`
-├── `lihat.cpp`
-├── `hapus.cpp`
-├── `cari.cpp`
-├── `hitung.cpp`
-└── `tugas.txt` ← file data yang dihasilkan otomatis
+┌── main.cpp
+├── tambah.cpp
+├── lihat.cpp
+├── hapus.cpp
+├── cari.cpp
+├── hitung.cpp
+└── tugas.txt ← file data yang dihasilkan otomatis
 ```
 
 ## 🚀 Cara Menjalankan
