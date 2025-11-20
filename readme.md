@@ -57,9 +57,9 @@ Jalankan:
 
 
 ## 📌 Catatan
-```
-Program ini menggunakan:
 
+Program ini menggunakan:
+```
 ifstream, ofstream
 
 ios::app, ios::trunc
