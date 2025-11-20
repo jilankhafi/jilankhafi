@@ -26,9 +26,9 @@ Bold + Italic
   - Sub Item
 
 📝 4. Numbered List
-1. Langkah pertama
+`1. Langkah pertama
 2. Langkah kedua
-3. Langkah ketiga
+3. Langkah ketiga`
 
 📝 5. Link
 [Klik di sini](https://github.com)
