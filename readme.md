@@ -1,142 +1,69 @@
-📝 1. Heading (Judul)
-Notasi	Ukuran
-#	Heading 1
-##	Heading 2
-###	Heading 3
+# TaskTrack-8A
+## TaskTrack: Program Pencatatan dan Pengelolaan Tugas Harian
+Program ini adalah aplikasi sederhana untuk mengelola daftar tugas menggunakan bahasa C++ dengan konsep modular programming dan file handling. Semua data disimpan dalam file teks tugas.txt.
 
-Contoh:
+## ✨ Fitur Utama
 
-# Judul Besar
-## Sub Judul
-### Sub Sub Judul
+### Tambah Tugas
+Menyimpan nama tugas, deadline, dan prioritas (Tinggi/Sedang/Rendah).
 
-📝 2. Bold & Italic
-Bold
-**Teks Tebal**
+### Lihat Tugas
+Menampilkan seluruh tugas dari file.
 
-Italic
-*Teks Miring*
+### Hapus Semua Tugas
+Mengosongkan file dengan konfirmasi.
 
-Bold + Italic
-***Teks Tebal Miring***
+### Cari Tugas
+Menemukan tugas berdasarkan kata kunci.
 
-📝 3. Bullet List
-- Item 1
-- Item 2
-  - Sub Item
+### Hitung Total Tugas
+Menghitung jumlah baris/tugas di file.
 
-📝 4. Numbered List
-`1. Langkah pertama
-2. Langkah kedua
-3. Langkah ketiga`
+## 📁 Struktur Project
+`main.cpp`
+`tambah.cpp`
+`lihat.cpp`
+`hapus.cpp`
+`cari.cpp`
+`hitung.cpp`
+`tugas.txt`
 
-📝 5. Link
-[Klik di sini](https://github.com)
+## 🚀 Cara Menjalankan
 
-📝 6. Gambar
-![Alt Text](https://linkgambar.com/gambar.png)
+Buka folder project di VSCode.
 
-📝 7. Code Block
-Inline code
-Gunakan `cout` untuk mencetak output.
-
-Code block (bahasa tertentu)
-```cpp
-#include <iostream>
-int main() { cout << "Hello"; }
+Compile:
+```
+g++ main.cpp -o tugas
 ```
 
----
-
-# 📝 **8. Quotes / Blockquote**
-
-```md
-> Ini adalah kutipan.
-> Bisa beberapa baris juga.
+Jalankan:
 ```
-
-📝 9. Tabel
-| Nama | Umur | Kota |
-|------|------|------|
-| Jilan | 20 | Lampung |
-| Rafi | 22 | Bandung |
-
-📝 10. Garis Pemisah
----
-
-📝 11. Checklist / Task List
-- [x] Fitur 1 selesai
-- [ ] Fitur 2 belum
-- [ ] Fitur 3 belum
-
-📝 12. Badge (GitHub Style)
-![Badge](https://img.shields.io/badge/Status-Success-green)
-
-📝 13. Emoji (GitHub Support)
-🔥 🚀 🎉 🙂
-
-📝 14. Spoiler / collapsible (GitHub only)
-<details>
-  <summary>Klik untuk membuka</summary>
-
-  Isi yang tersembunyi di sini.
-</details>
-
-📝 15. Horizontal alignment (image/text center)
-<p align="center">
-  <img src="https://linkgambar.com/logo.png" width="200">
-</p>
-
-🟩 Contoh README yang memakai semua notasi di atas (singkat)
-# 🚀 Project Contoh README
-
-Ini adalah contoh penggunaan *Markdown* di GitHub.
-
----
-
-## 📌 Fitur
-- **Fitur 1**
-- Fitur 2
-- Fitur 3
-
-## 📁 Struktur Folder
-
-
-|-- src
-|-- include
-|-- README.md
-
-
-## 📦 Instalasi
-1. Clone project:
-
-
-git clone https://github.com/user/project
-
-
-## 🛠 Contoh Kode
-```cpp
-#include <iostream>
-int main() {
-    std::cout << "Hello World!";
-}
+./tugas
 ```
+## 🧩 Menu Program
+1. Tambah Tugas
+2. Lihat Semua Tugas
+3. Hapus Semua Tugas
+4. Cari Tugas
+5. Hitung Total Tugas
+6. Keluar
 
-📊 Status
+## 📌 Catatan
+```
+Program ini menggunakan:
 
- Dokumentasi selesai
+ifstream, ofstream
 
- Testing
+ios::app, ios::trunc
 
- Deployment
+getline
 
-“Code never lies, comments sometimes do.”
-— Ron Jeffries
+Modular programming sederhana
 
+Tanpa vector / struct / fitur lanjutan
+```
+## 🎉 Penutup
 
----
-
-Kalau kamu mau, aku bisa buatin  
-🔥 README berdasarkan project C++ kamu sekarang  
-atau  
-🔥 template README profesional untuk GitHub kamu.
+Project ini cocok untuk latihan pengolahan file dan pemrograman modular di C++.
+Sederhana, mudah dipahami, dan siap dikembangkan lebih lanjut!
